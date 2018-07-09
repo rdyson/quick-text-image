@@ -14,7 +14,7 @@ Here's how it works:
 1. In the repository directory, run `npm install`. Alternately you can run `yarn`.
 1. Create a free Cloudinary account and grab your `CLOUDINARY_URL` environment variable from your [Cloudinary admin console](https://cloudinary.com/console). The free account includes 20,000 transformations, so you shouldn't have an issue of hitting any limits. (each run of this script counts as 2 transformations)
 1. Export your `CLOUDINARY_URL` as an environment variable by adding it to your bash_profile or zshrc. Alternately you can set the environment variable temporarily by running `export CLOUDINARY_URL=...`
-1. Run `node quick Lorem ipsum`, replacing Lorem ipsum with whatever text you want to use.
+1. Run `node quick.js Lorem ipsum`, replacing Lorem ipsum with whatever text you want to use.
 1. You'll get back a URL for the image. Running the command again will return a different image.
 
 Here's an example:
