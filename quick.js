@@ -1,6 +1,3 @@
-var dotenv = require('dotenv');
-dotenv.load();
-
 var fs = require('fs');
 var cloudinary = require('cloudinary').v2;
 var uploads = {};
