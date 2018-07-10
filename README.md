@@ -23,5 +23,5 @@ Here's an example:
 
 ## Notes
 
-* Works pretty well up to 160 characters. You can tweak the font size on line 43 (`_100` is the current font size, 100px).
+* Works pretty well up to 160 characters. You can tweak the font size on line 43 to accommodate more text. `_100` is the current font size, which is 100px.
 * Doesn't handle commas yet.
